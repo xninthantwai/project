@@ -11,9 +11,6 @@ PPT Contribution Co.Ltd
  
 
 
-## Authors
-
-- [Tin Htut Aung](https://www.github.com/octokatherine)
 
 ## Color Reference
 
