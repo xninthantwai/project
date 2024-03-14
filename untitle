@@ -1,0 +1,19 @@
+img-thumbnail လို့ ပြောရင် Link ယူထားလည်း size တေ ချိန်းစရာမလိုပဲ သူ့ col-md ဘာညာမှာ ထားခဲ့ အတိုင်းပဲ ဝင်သွားတယ်
+lead က spacing လိုမျိုးပဲ အသုံးဝင်
+data-bs-dismiss က ရှိနေတာ ကို ဖြုတ်ပစ်တဲ့ သဘော
+model dialog data size အတွက်
+
+
+; Full sixe
+modal fullscreen
+modal-fullscreen-sm-down
+modal-fullscreen-md-down
+
+; Standard Sixe 
+modal -xl
+modal -lg
+modal -md
+modal -sm
+
+
+

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTT Software Co.,Ltd</title>
+    <link rel="icon" href="img/moon-and-stars.png" sizes="32*32">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+   <link rel="stylesheet" href="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .banners{
+            height: 100vh;
+            background:linear-gradient(20deg,steelblue 30%,skyblue 0% 100%)  ;
+            background-size: 5%;
+            transition: all 2a;
+        }
+        .banners:hover{
+            background-size: 5.5%;
+            background-position: center;
+        }
+        .cardhovers:hover{
+            box-shadow: -7px 5px 5px rgba(0,0,0,0.3);
+        }
+        .maps{
+            width: 100%;
+            height: 250px;
+            height: 40vh;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- start Header Section -->
+    <header>
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="#" class="navbar-brand mx-3">
+                <img src="img/moon-and-stars.png" alt="sitelogo" width="40">
+                <span class="ms-2">PTT Softward Co.,Ltd</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+            <div class="navbar-collapse justify-content-between " id="nav">
+                <ul class="navbar-nav px-3">
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link  text-uppercase fw-bold">Clients</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link  text-uppercase fw-bold">About</a></li>
+
+                    <li class=" nav-item dropdown">
+                        <a href="#" class="nav-link text-uppercase fw-bold dropdown-toggle" data-bs-toggle="dropdown">Softward</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Android App</a></li>
+                            <li><a href="#" class="dropdown-item">IOS App</a></li>
+                            <li><a href="#" class="dropdown-item">Linux App</a></li> 
+                            <li><a href="#" class="dropdown-item">Android App</a></li>
+                            <li><a href="#" class="dropdown-item">Android App</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-uppercase fw-bold">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-uppercase fw-bold">Contact</a>
+                    </li>
+                </ul>
+               <div class="px-3">
+                <a href="#" class="btn btn-outline-light btn-sm rounded-0">Sing-Up</a>
+               </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+
+       <!-- Start banner -->
+       <div class="container-fluid">
+        <div class="row justify-content-center align-items-center banners">
+            <div class="col-md-10 text-center">
+                <h1 class="display-5 text-light"><span class="text-primary text-uppercase">ptt</span> <span class="text-capitalize">software developement company</span></h1>
+                <h2 class="fst-italic fw-light text-light">We help companies to digitalize their businesses.</h2>
+                <p class="text-secondary">Properly set processes. Transparent cooperation. Predictable delivery.</p>
+                <a href="#loginmodal" class="btn btn-warning btn-lg rounded-0" data-bs-toggle="modal">Get In Touch</a>
+            </div>
+        </div>
+    </div>
+    <!-- End banner -->
+    </header>
+    <!-- end Header Section -->
+
+    <!-- start Our Client Section -->
+    <section class="bg-light p-5">
+        <div class="container-fluid">
+            <!-- start-title -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Our Clients</h2>
+                <p class="text-muted lead">Project We Successfully ipsum dolor sit amet consectetur thousands words</p>
+            </div>
+            <!-- end-title -->
+
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Mazda</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Venhicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">KIA</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Venhicles</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-info cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Venhicls</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Mi</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Sony</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="card bg-warning cardhovers">
+                        <!-- <div class="card-header"></div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Oppo</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci facilis error enim rem sapiente!</p>
+                            <a href="#" class="card-link">Website</a>
+                            <a href="#" class="card-link">Contact</a>
+                        </div>
+                        <!-- <div class="card-footer"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Our Client Section -->
+
+    <!-- start software section -->
+    <section>
+        <div class="container-fluid">
+            <!-- start title -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Software</h2>
+                <p class="text-muted lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, ut.</p>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="https://imgeng.jagran.com/images/2023/jun/Android%2014%20(1)1686146518996.jpg" alt="android" class="img-thumbnail">
+                    <h3 class="text-warning my-3">Android Application</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio!</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" alt="ios" class="img-thumbnail">
+                    <h3 class="text-warning my-3">IOS Application</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio!</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" alt="linux" class="img-thumbnail">
+                    <h3 class="text-warning my-3">Linux Application</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio!</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg" alt="window" class="img-thumbnail">
+                    <h3 class="text-warning my-3">Windows</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end software section -->
+
+    <!-- start team section -->
+    <section class="bg-secondary p-5">
+        <div class="container-fluid">
+            <!-- start title -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Team</h2>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-10 mb-3">
+                    <div class="card">
+                        <img src="https://www.boemagazine.com/wp-content/uploads/2019/11/blur-businesswoman-caucasian-941555.jpg" alt="user1">
+                        <div class="card-body">
+                           
+                            <h3 class="card-title">Ms.Khin Myat Noe</h3>
+                            <p class="card-subtitle">Operation Manager</p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="float-end">
+                            <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-10 mb-3">
+                    <div class="card">
+                        <img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/what-is-the-difference-web-developer-web-designer.jpg" alt="user2">
+                        <div class="card-body">
+                            <h3 class="card-title">Mr.Mg Htet paing</h3>
+                            <p class="card-subtitle">Marketing Manager</p>
+                        </div>
+                        <div class="card-footer">
+                           <div class="float-end">
+                            <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-10 mb-3">
+                    <div class="card">
+                        <img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/Sam-CF.jpg" alt="user3">
+                        <div class="card-body">
+                            <h3 class="card-title">Mr.Pyae Phoye Paing</h3>
+                            <p class="card-subtitle">Project Manager</p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="float-end">
+                            <a href="#" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team section -->
+
+    <!-- start public Interest section -->
+    <section class="py-5">
+        <div class="container-fluid">
+            <div class="col-md-13 text-center">
+                <h2 class="text-warning display-4">Public Interest</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, explicabo.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-10 mx-auto">
+
+                    <h3>Ebook</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary progress-bar-striped" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+
+                    <h3>Android Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-warning progress-bar-striped" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+
+                    <h3>IOS Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success progress-bar-striped" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                    </div>
+
+                    <h3>Linux Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-danger progress-bar-striped" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
+                    </div>
+
+                    <h3>Windows Application</h3>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-info progress-bar-striped" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end public Interest section -->
+
+    <!-- start pricing section -->
+    <section class="bg-secondary p-5">
+        <div class="container-fluid ">
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Pricing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, quia.</p>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-10 mb-3 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>BLOG SITE / FREE</h5>
+                            <h6>$0/month</h6><hr>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB Storage</li>
+                                <li class="list-group-item">Unlimited Publice Prljects</li>
+                                <li class="list-group-item">Community Access</li>
+                                <li class="list-group-item"> Phone Support</li>
+                                <li class="list-group-item">Feee Subdomain</li>
+                                <li class="list-group-item">Monthly stutus Report</li>
+                            </ul>
+                        </div>
+                        
+                    <div class="card-footer">
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-warning text-uppercase">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+             <div class="col-md-4 col-sm-10 mb-3 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5> APP SITE / FREE</h5>
+                            <h6>$0/month</h6><hr>
+                            <ul class="list-group">
+                                <li class="list-group-item">Single User</li>
+                                <li class="list-group-item">5GB Storage</li>
+                                <li class="list-group-item">Unlimited Publice Prljects</li>
+                                <li class="list-group-item">Community Access</li>
+                                <li class="list-group-item"> Phone Support</li>
+                                <li class="list-group-item">Feee Subdomain</li>
+                                <li class="list-group-item">Monthly stutus Report</li>
+                            </ul>
+                        </div>
+                        
+                    <div class="card-footer">
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-warning text-uppercase">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-10 mb-3 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>ECOMMERCE SITE / FREE</h5>
+                        <h6>$0/month</h6><hr>
+                        <ul class="list-group">
+                            <li class="list-group-item">Single User</li>
+                            <li class="list-group-item">5GB Storage</li>
+                            <li class="list-group-item">Unlimited Publice Prljects</li>
+                            <li class="list-group-item">Community Access</li>
+                            <li class="list-group-item"> Phone Support</li>
+                            <li class="list-group-item">Feee Subdomain</li>
+                            <li class="list-group-item">Monthly stutus Report</li>
+                        </ul>
+                    </div>
+                    
+                <div class="card-footer">
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-warning text-uppercase">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    
+               
+            </div>
+               
+            </div>
+
+            
+
+
+        </div>
+    </section>
+    <!-- end pricing section -->
+
+    <!-- start content section -->
+    <section class="p-5">
+        <div class="container-fluid">
+            <!-- start title -->
+            <div class="col-md-12 text-center">
+                <h2 class="text-warning display-4">Contact</h2>
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-8  col-sm-10 mx-auto">
+                    <div class="card">
+
+                        <div class="card-header">
+                            <h5 class="card-title">Office Location</h5>
+                        </div>
+                        <div class="card-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.9022798320184!2d96.09335557389606!3d16.8807278839226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195bb344e0307%3A0x6897badd261111a0!2sYangon!5e0!3m2!1sen!2smm!4v1709822787870!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+                        </div>
+                        <div class="card-footer">
+                            <p>Phone : 09978870095</p>
+                            <p>Email : info@gmail.com</p>
+                            <p>Address :no,123, Aung San St, Mandalay Myanmar</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+                    <div class="text-secondary text-center">
+                        <h3>Got Question?</h3>
+                        <p>Stay Connected</p>
+                    </div>
+
+                    <form action="" method="">
+
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="form-control form-control-sm rounded-0" placeholder="Enter your Name">
+                        </div>
+
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Email</label>
+                            <input type="text" name="password" id="password" class="form-control form-control-sm rounded-0" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="name">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="3" placeholder="Enter Your Message" class="form-control form-control-sm rounded-0"></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-warning rounded-0">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end content section -->
+
+    
+    <!-- Start Footer Section -->
+    <footer class="bg-dark py-3">
+        <div class="container-fluid">
+            <div class="col-12 text-center">
+                <p class="text-white">&copy;Copyright  <span id="autoyear"></span> - Make by PTT Co., Ltd.</p>
+            </div>
+        </div>
+        <!-- elfsight -->
+        <div class="elfsight-app-480d6b72-d28f-44a2-9197-fb4a1a282848" data-elfsight-app-lazy></div>
+
+    </footer>
+    <!-- End Footer Section -->
+
+
+
+    <!-- START MODEL AREA  -->
+
+        <!-- start Get In Touch Model  -->
+            <div class="modal" id="loginmodal">
+
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down"> 
+
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5>Login Here</h5>
+                            <button type="button" class="btn-close"data-bs-dismiss="modal"></button>
+                        </div>
+        
+                        <div class="modal-body">
+                            <div class="col-md-12">
+                                <form action="">
+                                    <div class="form-groupmb-4">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" class="form-control    form-control-sm rounded-0" placeholder="Email">
+                                    </div>
+        
+                                    <div class="form-groupmb-4">
+                                        <label for="password">Password</label>
+                                        <input type="password" name="password" id="password" class=" form-control form-control-sm rounded-0" placeholder="Password">
+                                    </div>
+        
+                                    <div class="d-flex justify-content-end">
+                                        <button type="reset" class="btn btn-secondary btn-sm">Cancel</button>
+                                        <button type="submit" class="btn btn-primary btn-sm ms-2">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <p>Not Yet Register!, <a href="#">Signup Here</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+        
+            
+
+            </div>
+        <!-- end Get In Touch Model  -->
+
+    <!-- END MODEL AREA -->
+
+
+
+
+
+
+    
+
+    <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+
+   <script src="fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+   <!-- elfsight
+ -->
+   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        //console.log('hi');
+
+            const autoyear = document.getElementById('autoyear');
+            const getyear = new Date().getUTCFullYear();
+            autoyear.textContent = getyear;
+        });
+    </script>
+</body>
+</html>
